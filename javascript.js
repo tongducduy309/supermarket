@@ -6,9 +6,8 @@ import items from './items.json' assert { type: "json" };
                     <div class="price"><span class="price">200,000</span></div>
                 </div>
             </div> */}
-const body = document.body
-body.innerHTML+="1232"
-getItems(items,6);
+
+
 
 function getItems(items,n_cols){
 
@@ -75,4 +74,4 @@ function getItem(item){
 
 }
 
-console.log(items);
+$(document).ready(getItems(items,6))
