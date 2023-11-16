@@ -1,6 +1,7 @@
 // import items from './items.json' assert { type: "json" };
 function getItem(item){
     var col = document.createElement('div');
+    
     col.className = "col-6 col-sm-3 col-md-3 col-lg-2";
     var ite = document.createElement('div');
     ite.className="item";
