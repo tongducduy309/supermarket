@@ -33,6 +33,7 @@ function getItems(items,n_cols){
                 }
             });
             if (i>0) contain.appendChild(row);
+            row.innerHTML+= "<span>"+items+"</span>";
         }
     else{
         contain.innerHTML=`
